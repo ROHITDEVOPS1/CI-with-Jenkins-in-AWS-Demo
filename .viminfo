@@ -22,27 +22,29 @@
 # Registers:
 
 # File marks:
-'0  2  9  ~/sample2.txt
-'1  2  5  ~/sample.txt
+'0  1  10  ~/sample.txt
+'1  2  9  ~/sample2.txt
+'2  2  5  ~/sample.txt
 
 # Jumplist (newest first):
+-'  1  10  ~/sample.txt
 -'  2  9  ~/sample2.txt
 -'  1  0  ~/sample2.txt
 -'  2  5  ~/sample.txt
--'  1  0  ~/sample.txt
--'  2  5  ~/sample.txt
--'  1  0  ~/sample.txt
+-'  2  9  ~/sample2.txt
+-'  1  0  ~/sample2.txt
 
 # History of marks within files (newest to oldest):
+
+> ~/sample.txt
+	"	1	10
+	^	1	11
+	.	1	10
+	+	2	5
+	+	1	10
 
 > ~/sample2.txt
 	"	2	9
 	^	2	10
 	.	2	9
 	+	2	9
-
-> ~/sample.txt
-	"	2	5
-	^	2	6
-	.	2	5
-	+	2	5
